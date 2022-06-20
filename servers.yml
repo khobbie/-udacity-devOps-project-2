@@ -61,7 +61,7 @@ Resources:
           aws s3 cp s3://udacity-demo-1/udacity.zip .
           unzip -o udacity.zip
       ImageId: ami-0ca951dd3a6f8cbfc
-      #KeyName: "private-server-devops-key"
+      # KeyName: "private-server-devops-key"
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: c6g.medium
